@@ -14,7 +14,7 @@ role :db,  application, :primary => true # This is where Rails migrations will r
 
 set :branch, "master"
 set :deploy_to, "/var/www/vhosts/gomet.be/yunus"
-set :deploy_via, :remote_cache
+set :deploy_via, :copy
 
 # if you want to clean up old releases on each deploy uncomment this:
 # after "deploy:restart", "deploy:cleanup"
