@@ -1,4 +1,4 @@
-default_run_option[:pty] = true
+default_run_options[:pty] = true
 
 set :application, "yunus.gomet.be"
 set :repository,  "git@github.com:iepsevere/holidays.git"
